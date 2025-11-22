@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 10px;
+}
+body{
+    background-image: url(lux.avif) ;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center;
+
+}
+.nav{
+    text-align: right;
+    text-decoration: dashed;
+    transform: rotate(1s);
+    transition: cubic-bezier();
+    color: white;
+
+}
+.logo{
+    text-align: left;
+    
+}
+.head{
+    text-align: left;
+}
+.name{
+    color:royalblue;
+}
+.para{
+    padding-left: 10px;
+    margin: 10px;
+    color: white;
+}
+.purchase{
+    cursor: pointer;
+    background-color: green;
+    color: beige;
+    text-decoration: dashed;
+    transform: rotate(1s);
+    transition: cubic-bezier();
+    margin: 30px;
+    padding: 10px;
+}
+.Live{
+    cursor: pointer;
+    background-color: green;
+    color: beige;
+    text-decoration: dashed;
+    transform: rotate(1s);
+    transition: cubic-bezier();
+    margin: 30px;
+    padding: 10px;
+}
+.span2{
+    margin-left: 10px;
+    text-align: right;
+    color:white;
+}
+.head2{
+    text-align: center;
+    color: palegreen;
+}

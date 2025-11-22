@@ -1,0 +1,136 @@
+*{
+    margin: 10px;
+} 
+body{
+    background-image: url(aesthetic.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center;
+
+}
+p{font-sixe: 20px;
+text-align: center;
+border-style: solid;
+border-color: 2px blueviolet;
+border-width: 5px 20px;
+border-radius: 20px;
+margin-top:100px;
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 80px;
+
+} 
+#firstheading{
+    color: blanchedalmond;
+    border: 2px salmon;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: dotted;
+    text-transform: capitalize;
+    text-overflow: clip;
+    text-shadow: 2px 2px 5px red;
+    font:italic small-caps bold 12px/30px Georgia, serif;
+}
+.one{
+    background-color: aquamarine;
+    color: blue;
+    text-shadow: 2px 2px;
+}
+.two{
+    border: 1px solid black;
+    outline-style: inherit;
+    text-shadow: 2px 2px red;
+}
+.three{
+    text-shadow: 2px 2px pink;
+    background-color: black;
+    text-decoration: overline;
+}
+
+.customstyle{
+    background-color: palevioletred;
+    color:blue;
+}
+
+h2,h3,h6{
+    color: black;
+    text-align: center;
+    background-color: lightcoral;
+}
+.four{
+    background-image: url(flat.avif);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    font-style:unset;
+    font-size: medium;
+    font-weight: lighter;
+    text-decoration: wavy;
+    text-shadow: black;
+}
+.five{
+    background-color: blue;
+    color: white;
+}
+.link:active{
+    color:greenyellow;
+    font-sixe: 25px;
+}
+ul li{
+    dispalay: inline;
+    margin-right: 20px;
+}
+.card{
+    color: greenyellow;
+    background-color: gray;
+    text-align: center;
+    text-decoration: double;
+    font-size: larger;
+    width:100%;
+    max-width: 400px;
+    min-height: 300px;
+    max-height: 300px;
+    overflow: auto;
+}
+.container{
+    display:flex;
+    background-color: blueviolet;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.container div{
+    background-color: rgb(220, 140, 180);
+    margin:10px;
+    padding:20px;
+}
+.container1{
+    display: flex;
+    background-color: rgb(100, 250, 180);
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.container1 span{
+    background-color: rgb(180, 100, 250);
+    border: 2px solid black;
+}
+.ball{
+    position:relative;
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    border-radius: 50%;
+    animation: bounce 2s infinite ease-in-out;
+}
+@keyframes move {
+    from {left: 0;}
+    to {left: 200px;}
+}
+.box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    animation: move 3s infinite alternate;
+}
